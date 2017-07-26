@@ -44,7 +44,7 @@
 - Configurate eGit: Preferences-window Window => Preferences. Navigate to Team => Git => Configuration and hit the New Entry-> complete with your git credentials(username/ password)
 - Creating Local Repositories : right clicking on your project and navigate to Team => Share Project… -> Select Git as the repository -> Next. ->slect your project-> Create Repository->Finish.
 - Create a newRepository in you Git account.
--(You cand made you first commit!!)
+-(You can made you first commit!!)
 
 
 ***********Tasks***********
