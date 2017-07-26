@@ -1,8 +1,8 @@
 ******Tools*********
-S.0. - Windows
-IDE - Eclipse Mars2
-Languages : PHP7
-Versioning Tools : GitHub
+-S.0. - Windows
+-IDE - Eclipse Mars2
+-Languages : PHP7
+-Versioning Tools : GitHub
 
 
 ***** Links *****
