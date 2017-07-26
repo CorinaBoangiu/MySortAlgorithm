@@ -1,5 +1,5 @@
 <?php
-include ('myConstants.php');
+require ('myConstants.php');
 class QuickSort {
 	public $path = LOCAL_PATH;
 	public function __construct() {
