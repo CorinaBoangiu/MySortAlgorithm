@@ -1,9 +1,9 @@
 ***********Tools***********
 
--S.0. - Windows
--IDE - Eclipse Mars2
--Languages : PHP7
--Versioning Tools : GitHub
+-S.0. : Windows;
+-IDE : Eclipse Mars2;
+-Languages : PHP7;
+-Versioning Tools : GitHub;
 
 
 ***********Links***********
@@ -76,7 +76,7 @@ Solution 3 (quickSort.php)
 	- The concept of "Quick Sort" -> get the array an select a item as a pivot(first position because is an anorder array)
 								  -> split the initial array in 2 parts, values  that are smaller or bigger than pivot value and put in 2 different arrays.
 								  ->  merge array
-- Write the new file;
+	- Write the new file;
 	
 	
 Solution 4(externalSort.php)
