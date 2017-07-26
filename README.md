@@ -1,4 +1,4 @@
-*****Tools *****
+***********Tools***********
 
 -S.0. - Windows
 -IDE - Eclipse Mars2
@@ -6,12 +6,12 @@
 -Versioning Tools : GitHub
 
 
-***** Links *****
+***********Links***********
 - Apache : https://www.apachelounge.com/download/
 - PHP : http://windows.php.net/download#php-7.0 
 - GitHub : you need to create an account.
 
-***** Step By Step *****
+***********Step By Step***********
 - Download the latest Apache Version from the official Website https://www.apachelounge.com/download/ -- Zip-File
 - Copy Apache24 folder from Zip-File to your C: Drive
 - Navigate into C:/Apache24/bin
@@ -47,11 +47,11 @@
 -(You cand made you first commit!!)
 
 
-*******Tasks**************
+***********Tasks***********
 You have for input an unsorted file with number and you have to sort the file.
 You have 3 file with different number of data: 100, 10000 and 10000000.
 
-********Solution***********
+***********Solution***********
 I created a file myConstants.php with constants for using in all php files. If you have another location for you input files, please change the values.
 
 Solution 1 (firstVersion.php)
@@ -67,8 +67,7 @@ Solution 2(mergeSort.php)
 								  -> do the same thing(recursiv sort ) until you have only one value left and one value right
 								  -> call the merge function to combine
 								  -> combine by merging the two sorted subarrays back into the single sorted subarray (left and fight)
-	 
-	- Write the new file;
+	 - Write the new file;
 	
 		
 Solution 3 (quickSort.php)
@@ -77,8 +76,7 @@ Solution 3 (quickSort.php)
 	- The concept of "Quick Sort" -> get the array an select a item as a pivot(first position because is an anorder array)
 								  -> split the initial array in 2 parts, values  that are smaller or bigger than pivot value and put in 2 different arrays.
 								  ->  merge array
-
-	- Write the new file;
+- Write the new file;
 	
 	
 Solution 4(externalSort.php)
@@ -94,7 +92,7 @@ The last solution it fit very well for all file with different number of data.
 
 All this algorithms save the data into the main memory of a computing device (usually RAM).
 
-**Concept of "External sorting"
+Concept of "External sorting"
 For large file you can use "External sorting",  typically uses a hybrid sort-merge strategy.
 In the sorting phase, chunks of data small enough to fit in main memory are read, sorted, and written out to a temporary file. 
 In the merge phase, the sorted sub-files are combined into a single large file.
