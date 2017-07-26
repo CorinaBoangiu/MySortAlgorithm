@@ -1,6 +1,6 @@
 <?php
-include ('myConstants.php');
-ini_set ( ‘memory_limit’, ‘1G’ );
+require ('myConstants.php');
+ini_set ( â€˜memory_limitâ€™, â€˜1Gâ€™ );
 set_time_limit ( 0 );
 class ExternalSort {
 	public $path = LOCAL_PATH;
